@@ -1,0 +1,21 @@
+places = []
+
+for i in range(5):
+    place = input(f"Enter travel destination {i+1}: ")
+    places.append(place)
+    
+upd = input("Would you like to update an element? (yes/no): ").lower()
+
+if upd == "yes":
+    new = int(input("Which place would you like to change (1-5)? "))
+    if 1 <= new <= 5:
+        new2 = input("Enter new place: ")
+        places[new - 1] = new2
+        
+else:
+    print("Invalid number. Retry?")
+    
+
+print("Let's go to:")
+for i, place in enumerate(places, start=1):
+    print(f"{i}. {place}")
