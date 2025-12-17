@@ -1,0 +1,80 @@
+Part I:
+
+1. Grocery List Scenario:
+Imagine you’re maintaining a grocery list using an array. How would you use built-in methods to:
+- Add a new item to the end of the list?
+Use append().
+
+- Remove the last item from the list?
+Use pop().
+
+- Find the position of a specific item?
+Use index().
+
+2. Playlist Management:
+- If you're building a music app that manages playlists using arrays, how can built-in methods like sort() or reverse() help enhance the user experience?
+
+sort() can be used to organize songs in order, whether it be alpabetical, release date, etc.
+reverse() can be used to change the order of a playlist.
+
+
+3. Daily Schedule Organizer:
+Your daily schedule is stored as an array of tasks. Which built-in array methods would help you:
+- Reorder tasks by priority?
+Use sort().
+
+- Remove a cancelled task?
+Use remove().
+
+- Insert a new task in a specific time slot?
+Use insert()
+
+4. Friend List in a Social App:
+- You want to find if a person is already in your friend list and add them only if they’re not. Which built-in method could help you achieve this, and how?
+"in" may be used to check if an element is in the list, and append() to add if not.
+
+
+Part II:
+
+1. Given an array of exam scores, how would you use built-in methods to:
+- Find the highest and lowest scores?
+Use max() for highest and min() for lowest.
+
+- Sort the scores from lowest to highest?
+Use scores.sort().
+
+- Remove duplicate scores?
+Use list(set(scores)).
+
+2. You are given a string of characters stored in an array. How can built-in functions help you:
+- Count how many characters there are?
+Use len(characters).
+
+- Reverse the order of characters?
+Use characters.reverse().
+
+- Join them into a complete word or sentence?
+Use "".join(characters).
+
+3. Suppose you are developing a travel itinerary planner where destinations are stored in an array. How would you use array methods to:
+- Add a destination at the beginning of the trip?
+Use itinerary.insert(0, "Destination").
+
+- Remove the last destination due to a cancellation?
+Use itinerary.pop().
+
+- Check if a certain location is part of the itinerary?
+"[Location]" in itinerary.
+
+4. If you are sorting student names alphabetically for a class roster, how can sort() and slice() be used to:
+- Alphabetize the names?
+Use names.sort().
+
+- Display only the top 5 names alphabetically?
+Use names[:5].
+
+
+
+- How can built-in methods simplify the process of filtering only even numbers from a list of integers stored in an array?
+You can use filter() to comprehend a list better.
+
